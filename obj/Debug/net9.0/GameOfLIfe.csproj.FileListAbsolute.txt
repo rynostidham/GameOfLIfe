@@ -1,0 +1,15 @@
+C:\Users\ryans\Desktop\GameOfLIfe\bin\Debug\net9.0\GameOfLIfe.exe
+C:\Users\ryans\Desktop\GameOfLIfe\bin\Debug\net9.0\GameOfLIfe.deps.json
+C:\Users\ryans\Desktop\GameOfLIfe\bin\Debug\net9.0\GameOfLIfe.runtimeconfig.json
+C:\Users\ryans\Desktop\GameOfLIfe\bin\Debug\net9.0\GameOfLIfe.dll
+C:\Users\ryans\Desktop\GameOfLIfe\bin\Debug\net9.0\GameOfLIfe.pdb
+C:\Users\ryans\Desktop\GameOfLIfe\obj\Debug\net9.0\GameOfLIfe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ryans\Desktop\GameOfLIfe\obj\Debug\net9.0\GameOfLIfe.AssemblyInfoInputs.cache
+C:\Users\ryans\Desktop\GameOfLIfe\obj\Debug\net9.0\GameOfLIfe.AssemblyInfo.cs
+C:\Users\ryans\Desktop\GameOfLIfe\obj\Debug\net9.0\GameOfLIfe.csproj.CoreCompileInputs.cache
+C:\Users\ryans\Desktop\GameOfLIfe\obj\Debug\net9.0\GameOfLIfe.sourcelink.json
+C:\Users\ryans\Desktop\GameOfLIfe\obj\Debug\net9.0\GameOfLIfe.dll
+C:\Users\ryans\Desktop\GameOfLIfe\obj\Debug\net9.0\refint\GameOfLIfe.dll
+C:\Users\ryans\Desktop\GameOfLIfe\obj\Debug\net9.0\GameOfLIfe.pdb
+C:\Users\ryans\Desktop\GameOfLIfe\obj\Debug\net9.0\GameOfLIfe.genruntimeconfig.cache
+C:\Users\ryans\Desktop\GameOfLIfe\obj\Debug\net9.0\ref\GameOfLIfe.dll

@@ -6,7 +6,6 @@ public class GameOfLife
 {
     private int width;
     private int height;
-
     private CellState[,] currentGrid;
     private CellState[,] nextGrid;
 
@@ -23,6 +22,7 @@ public class GameOfLife
     {
         if (row < 0 || row >= height ||
             column < 0 || column >= width)
+        // Makes sure that the live cells are within the grid and if not throws an exception
         {
             throw new ArgumentOutOfRangeException(
                 $"Cell ({column},{row}) is outside the grid."
@@ -35,11 +35,12 @@ public class GameOfLife
     private int CountAliveNeighbors(int row, int column)
     {
         int aliveNeighbors = 0;
-
+        // Offsets allow us to check the 8 neighboring cells around the current cell
         for (int rowOffset = -1; rowOffset <= 1; rowOffset++)
         {
             for (int columnOffset = -1; columnOffset <= 1; columnOffset++)
             {
+                // Skips the current cell itself when counting neighbors
                 if (rowOffset == 0 && columnOffset == 0)
                 {
                     continue;
@@ -169,11 +170,11 @@ public class GameOfLife
 
         StringBuilder output = new StringBuilder();
 
-        output.AppendLine($"{width} {height}");
+        output.AppendLine($"{width},{height}");
         output.AppendLine(steps.ToString());
         output.AppendLine(liveCellCount.ToString());
         output.Append(liveCells);
-
+        // Gets file path and creates directory if it does not exist to avoid errors when writing to file
         string? directory =
             Path.GetDirectoryName(Path.GetFullPath(filePath));
 

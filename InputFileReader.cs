@@ -5,6 +5,8 @@ public static class InputFileReader
 {
     public static InputData Read(string filePath)
     {
+        // Reads all lines of the input file into an array 
+        // File must contain at least dimensions, genereations, and living cells count 
         string[] lines = File.ReadAllLines(filePath);
 
         if (lines.Length < 3)
@@ -13,9 +15,9 @@ public static class InputFileReader
                 "Input file does not contain enough information."
             );
         }
-
+        // Line 1 that conatins width and height seperated by comma 
         string[] dimensions = lines[0].Split(
-            ' ',
+            ',',
             StringSplitOptions.RemoveEmptyEntries
         );
 
@@ -25,7 +27,7 @@ public static class InputFileReader
                 "Line 1 must contain width and height."
             );
         }
-
+        // Converts or parses the width and height to integers and checks for positive values
         int width = int.Parse(dimensions[0]);
         int height = int.Parse(dimensions[1]);
 
@@ -35,7 +37,7 @@ public static class InputFileReader
                 "Width and height must be positive."
             );
         }
-
+        // Ensures that no erros are created with the number of steps and the number of live cells
         int steps = int.Parse(lines[1]);
 
         if (steps < 0)
@@ -84,7 +86,7 @@ public static class InputFileReader
 
             int row =
                 int.Parse(coordinates[1].Trim());
-
+            // Stores the live cells to be used later by the program 
             data.LiveCells.Add((column, row));
         }
 

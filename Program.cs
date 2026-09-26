@@ -12,6 +12,7 @@ public class Program
 
             if (args.Length == 0)
             {
+                // Prompts the user for input and output file paths and graphics option
                 Console.Write("Enter input file path: ");
                 inputPath = Console.ReadLine() ?? "";
 
@@ -41,7 +42,7 @@ public class Program
                                 "Missing input file path."
                             );
                         }
-
+                        // Moves to next argument and stores the input file path
                         inputPath = args[++i];
                     }
                     else if (args[i] == "--output")
@@ -85,7 +86,7 @@ public class Program
             // Reads the users input file and returns data 
             InputData data = InputFileReader.Read(inputPath);
 
-            // Create the game.
+            // Create the game
             GameOfLife game =
                 new GameOfLife(data.Width, data.Height);
 

@@ -6,6 +6,12 @@ public class Program
     {
         try
         {
+            if (args.Length == 1 && args[0] == "--benchmark")
+            {
+                BenchmarkRunner.RunBenchmarks();
+                return;
+            }
+            
             string inputPath;
             string outputPath;
             bool graphics;

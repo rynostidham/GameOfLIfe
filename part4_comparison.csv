@@ -1,0 +1,5 @@
+Test Case,Engine,Initial Live,Avg ms/Generation,Peak Memory MB,Final Live
+Dense Soup,Dense,499329,12.9835,73.99,73541
+Dense Soup,Sparse,499329,66.2362,305.64,73541
+Sparse Void,Dense,8,1039.3240,856.37,8
+Sparse Void,Sparse,8,0.0034,856.70,8

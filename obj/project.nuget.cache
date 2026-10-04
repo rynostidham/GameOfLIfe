@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "9M4YSSO7LfE=",
+  "dgSpecHash": "8uB7DWfDdjE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ryans\\Desktop\\GameOfLIfe\\GameOfLIfe.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\ryans\\Downloads\\GameOfLIfe\\GameOfLIfe.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ryans\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.15\\microsoft.netcore.app.ref.9.0.15.nupkg.sha512",
+    "C:\\Users\\ryans\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.15\\microsoft.windowsdesktop.app.ref.9.0.15.nupkg.sha512",
+    "C:\\Users\\ryans\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.15\\microsoft.aspnetcore.app.ref.9.0.15.nupkg.sha512",
+    "C:\\Users\\ryans\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.15\\microsoft.netcore.app.host.win-x64.9.0.15.nupkg.sha512"
+  ],
   "logs": []
 }
